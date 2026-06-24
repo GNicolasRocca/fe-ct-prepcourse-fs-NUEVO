@@ -5,6 +5,23 @@ function continueStatement(num) {
   // se continúa con la siguiente iteración.
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
+  var list_aum = [];
+
+
+  for(let i = 0; i <= 10; i++){
+    if(i === 5){
+      console.log("Funciona");
+      continue;
+    }
+    else{
+      num = num + 2;
+      list_aum.push(num); 
+    }
+  }
+
+  return list_aum;
 }
+
+continueStatement(2);
 
 module.exports = continueStatement;

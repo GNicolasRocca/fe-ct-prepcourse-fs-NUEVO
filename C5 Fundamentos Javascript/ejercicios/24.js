@@ -4,6 +4,16 @@ function agregarSimboloExclamacion(str) {
   // Por ejemplo: 
   // "hello world" ---> "hello world!"
   // Tu código:
+  var signo_exclamacion = "!";
+
+  if(typeof(str) === "string"){
+    return str + signo_exclamacion;
+  }
+  else{
+    return null;
+  }
 }
+
+agregarSimboloExclamacion("Buenas");
 
 module.exports = agregarSimboloExclamacion;

@@ -7,6 +7,11 @@ function elevarAlCuadrado(num) {
   // 6 ---> 36
   // 0 ---> 0
   // Tu código:
+  if(typeof(num) === "number"){
+    return Math.pow(num, 2);
+  }
 }
+
+elevarAlCuadrado(2);
 
 module.exports = elevarAlCuadrado;

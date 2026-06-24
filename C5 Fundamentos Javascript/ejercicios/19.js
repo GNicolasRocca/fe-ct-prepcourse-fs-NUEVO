@@ -5,6 +5,11 @@ function suma(x, y) {
   // 5, 5 ---> 10
   // -5, 5 ---> 0
   // Tu código:
+  var z = x + y;
+
+  return z;
 }
+
+suma(10, -1);
 
 module.exports = suma; 

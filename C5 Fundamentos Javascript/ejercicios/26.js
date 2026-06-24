@@ -4,6 +4,15 @@ function obtenerSaludo(nombre) {
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Retorna el nuevo string. 
   // Tu código:
+  var hello = "Hola ";
+
+  var excla = "!";
+
+  if(typeof(nombre) === "string"){
+      return hello + nombre + excla;
+  }
 }
+
+obtenerSaludo("Gonza");
 
 module.exports = obtenerSaludo;

@@ -7,6 +7,11 @@ function elevarAlCubo(num) {
   // 3 ---> 27
   // 0 ---> 0
   // Tu código:
+  if(typeof(num) === "number"){
+    return Math.pow(num, 3);
+  }
 }
+
+elevarAlCubo(4);
 
 module.exports = elevarAlCubo;
